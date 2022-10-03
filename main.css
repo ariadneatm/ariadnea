@@ -1,0 +1,41 @@
+.miniheader {
+    background-color: rgb(235, 235, 235);
+    padding: 20px;
+    text-align: center;
+}
+
+.firstsection {
+    border-right: 1px solid rgb(48, 48, 48);
+    padding: 15px;
+}
+.secondsection {
+    border-right: 1px solid rgb(47, 47, 47);
+    padding: 15px;
+}
+
+#photos {
+    margin: 0 auto;
+    line-height: 0;
+    width: 250px;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 0;
+    -moz-column-count: 3;
+    -moz-column-gap: 0;
+    column-count: 3;
+    column-gap: 0;
+}
+
+#photos img {
+    width: 80px !important;
+    height: auto !important;
+    margin-bottom: 8px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    opacity: 0.7;
+    transition: all 0.4s;
+}
+
+.postbody:hover img {
+    opacity: 1;
+}
